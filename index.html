@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Noto+Sans+Old+Permic&family=Roboto+Mono&family=Roboto:wght@300;400;700&family=Shadows+Into+Light&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comic+Neue&family=Nabla&family=Noto+Sans+Old+Permic&family=Roboto+Mono&family=Roboto:wght@300;400;700&family=Shadows+Into+Light&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>HBD</title>
+</head>
+<body>
+    <nav>
+        <h3>KARISHMA KI BUDDAY</h3>
+        <img class="turtle-icon" src="turtle.png" alt="">
+    </nav>
+
+
+    <div class="about-pop">
+
+        <div class="overlay" onclick="togglePet()" id="pop-about"></div>
+
+        
+        <div class="about-div">
+
+            <div class="aboutpic">
+                <img class="about-pic" src="pets.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h3>Karishma's pets</h3>
+              <p>Her current pets include a bunch of colorful parrots and my favorite one is the blue one and his name is zarar and zarar cage belongs to him.</p>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <div class="wish-pop">
+
+        <div class="overlay" onclick="toggleWish()" id="wish-about"></div>
+
+        
+        <div class="wish-div">
+
+            <div class="wishpic">
+                <img class="wish-pic" src="kappa.jpg" alt="">
+            </div>
+            <div class="wish-text">
+                <h3>The wisher</h3>
+              <p>Handsome dashing multimillioniare billionaire boy hopes that this wish was enough to make your day a little bit better hehe</p>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    
+    <div class="overlay">
+    </div>
+    <div class="bg">
+        <img class="ishma-pic" src="ishma.jpg" alt="">
+        <img class="prt-pic" src="yellow-prt.jpg" alt="">
+        <img class="turt-pic" src="turts.jpg" alt="">
+    </div>
+
+    <div class="wish">
+        <H1>Happy birthday my number one super hero best friend!</H1>
+        <p>I dont have anything poetic to say, the only things i have to say are the things i feel and those are pure joy whenever we talk</p>
+        <p>thank you for making my time in Canada way more bearable with your e-presence</p>
+        <div class="butn">
+            <button class="button" onclick="togglePet()">Pets</button>
+            <button class="button" onclick="toggleWish()">Wisher</button>
+        </div>
+    </div>
+
+    <!-- <div>
+        Happy birday to you my best friend
+    </div> -->
+</body>
+<script>
+    function togglePet(){
+        console.log("wrking")
+ document.querySelector(".about-pop").classList.toggle("active")
+
+};
+function toggleWish(){
+        console.log("wrking")
+ document.querySelector(".wish-pop").classList.toggle("active")
+
+}
+</script>
+</html>

@@ -234,3 +234,93 @@ nav{
 .wish-pop.active .overlay{
     display: block;
 }
+
+
+@media screen and (max-width: 700px) {
+
+  .ishma-pic{
+    height: 90vh;
+}
+
+.prt-pic{
+    height: 90vh;
+    display: none;
+}
+
+.turt-pic{
+    height: 90vh;
+    width: 45vw;
+    overflow: hidden;
+    display: none;
+}
+.wish{
+  position: fixed;
+  z-index: 1;
+  transform: translateY(-70vh);
+  color: white;
+  margin-left: 50px;
+  font-family: "Architects Daughter";
+  width: 80vw;
+
+}
+
+.about-pop .about-div{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: rgb(230, 230, 174);
+  width: 20rem;
+  height: 30rem;
+  z-index: 3;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: fixed;
+}
+
+.aboutpic{
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  
+}
+.about-pic{
+  
+  width: 100%;
+  /* transform: translateY(-15rem); */
+  /* box-shadow: inset 0 0 20px rgba(0, 0, 0, 5); */
+}
+
+.wish-pop .wish-div{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: rgb(230, 230, 174);
+  width: 20rem;
+  height: 30rem;
+  z-index: 3;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: fixed;
+}
+
+.wishpic{
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 15rem;
+  /* overflow: hidden; */
+  
+}
+.wish-pic{
+  
+  width: 100%;
+  transform: translateY(0rem);
+  /* box-shadow: inset 0 0 20px rgba(0, 0, 0, 5); */
+}
+
+  
+}
